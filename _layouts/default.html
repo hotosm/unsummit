@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>  
+    <div class="page-body">
+      {% include nav.html %}
+      <div class="page-content">
+        {{ content }}
+        {% include footer.html %}
+      </div>
+    </div>
+    <div id="optout-form" ></div>
+    <script type="application/javascript">var site_id = "12"</script>
+    <script type="application/javascript" src="https://cdn.hotosm.org/tracking-v1.js"></script>
+  </body>
+</html>
